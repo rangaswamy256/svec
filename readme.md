@@ -40,3 +40,8 @@
       - Remote (Central) VCS
             - Github, BitBucket
       - 
+- git init
+- git add filename
+- git add filename1 filename5 filename100
+- git add . or git add -all
+- git status
