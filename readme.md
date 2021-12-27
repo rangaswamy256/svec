@@ -34,6 +34,8 @@
 - Oracle
 
 
+
+
 - VCS or(Source code management)
       - Distibuted VCS  
             - Git,Mecurial
@@ -45,3 +47,31 @@
 - git add filename1 filename5 filename100
 - git add . or git add -all
 - git status
+
+### HTML(version5)
+- Hyper text markup language
+- Symantic elements
+     - header
+     - section
+     - article
+     - aside
+     - footer
+     - table 
+- Block level elements 
+     - h1 to h6
+     - p
+     - div
+     - all semantic elements
+     - Text will start from new line
+
+- inline elements
+     - span
+     - img
+     - a
+     - nav
+     - form
+     - input
+     - text area
+     - legend
+     - sup
+     - sub
