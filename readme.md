@@ -75,3 +75,31 @@
      - legend
      - sup
      - sub
+     ### CSS
+     - types of css
+        -  Inline CSS
+        - Internal Css
+        - External CSS
+
+
+   + Syntax ofCSS{
+         css properties
+   }
+
+   ### Selectors
+   + Simple selectors
+       - By element name
+       - Grouping selector(,)
+       - Class selector
+       - Id selector
+   + Combinators
+     + descendent selector ( )
+     + Child selector(>)
+     + Adjase\cent sibling selector(+)
+     + General sibling selector(~)
+   + pseudo class selector
+   + pseudo element selector
+   + Attribute selector
+
+### Reference links
+
