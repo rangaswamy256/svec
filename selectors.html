@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+     <style>
+
+          <div p{
+              background-color: skyblue;
+              color: tomato;
+              font-size: 50px;
+         }
+
+          div > p{
+             background-color: turquoise;
+             color: yellow;
+             }   Alla
+         section+p{
+             font-size: 50px;
+             background-color: violet;
+             font-style: italic;
+         }
+         div +h5{
+             font-size: 30px;
+             background-color: yellowgreen;
+         }
+         div ~p{
+             background-color: red;
+             font-size: 50px;
+         }
+         div +p{
+             font-size: 60px;
+         }
+
+         p::first-letter{
+             font-size: 100px;
+         }
+         P::first-line{
+             background-color: seagreen;
+         }
+          
+     </style>
+<body>
+    <div>
+    <p>paragraph1</p>
+    <p>paragraph2</p>
+    <div>
+        <p>paragraph3</p>
+    </div>
+    <section>
+        <p>Paragrarh 4</p>
+    </section>
+        <p>paragraph5</p>
+        <p>paragraph6</p>
+</div>
+<p>shdsj
+</p>
+<h5>Hello</h5>
+<p>paragraph7</p>
+<h6 style="font-size: 80px; color: saddlebrown; font-style: italic;">
+    Welcome to vidyanikethan
+</h6>
+</head>
+</body>
+</html>
