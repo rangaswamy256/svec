@@ -1,0 +1,8 @@
+.demo{
+    border: 10px solid blue;
+    background-image: url("./anu.jpg");
+    margin: 10px;
+    padding: 10px 10px;
+    font-style: italic;
+    color: rgba(245, 65, 10, 0.959);
+}
