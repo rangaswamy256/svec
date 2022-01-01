@@ -9,7 +9,7 @@
 - Node.js
        - express.js
        - nodemoon
-       -cors
+       - cors
        - dotenv
 - PHP  
 - C#
@@ -20,7 +20,7 @@
 - Mysql
 - SQlite
 - Firebase
-- Postgressql
+- PostgresSQL
 - Oracle
 - VCS or(Source code management)
       - Distibuted VCS  
@@ -405,13 +405,47 @@
    - componentWil()
 
    #### Hooks---> for data manupulation
+    
      - from react 16.8 version Hooks are introduced
+
+      - To maintain the information we can use Hooks
      - parent - child1 ---> child2 -->child3
      - useState()
      - useEffect()
      - useMemo()
      - useRef()
      - useContext()
+
+
+### list Rendering
+
+
+
+### Event Handling & Form Handling
+     
+   
+- onSubmit()
+- onChange()
+- preventDefault()
+
+
+####  Routing in React
+
+      + To navigate (Route) from one component to another
+           - install "react-router-dom" package by using "npm install react-router-dom"
+           - BrowserRouter 
+           - Routes
+           - Route
+           - Link
+           - path
+           - element
+      
+
+   + Redux 
+
+ 
+   
+           
 
 
 ### Reference links
