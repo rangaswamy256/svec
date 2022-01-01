@@ -2,12 +2,16 @@
 // import './App.css';
 
 import ClassComponent from "./components/ClassComponent";
+import FormRendering from "./components/FormRendering";
+import ListRendering from "./components/ListRendering";
 
 function App() {
   return (
     <>
     {/* <ClassComponent/> */}
-     <h1>Welcome to ReactJs</h1>
+     {/* <h1>Welcome to ReactJs</h1> */}
+     <ListRendering />
+     <FormRendering />
      
      </>
      

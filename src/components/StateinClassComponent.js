@@ -8,7 +8,8 @@ export default class StateinClassComponent extends Component {
      this.state = {
           name:"RangaSwamy",
           count:0,
-          count1:100
+          count1:100,
+          count2:0
      }
  }
     render() {
@@ -42,15 +43,18 @@ export default class StateinClassComponent extends Component {
 
 
 
-<h4>count is{this.state.count1}</h4>
+<h4>count is{this.state.count}</h4>
               <button onClick={()=>{
                        this.setState({
-                           count1:this.state.count1
+                           count2:this.state.count
                        })
                     }}>Reset count</button>
+
+        <nav>
+            <a href=''>login</a>
+        </nav>
             </div>
-            
-    
+           
         )
     }
 }
